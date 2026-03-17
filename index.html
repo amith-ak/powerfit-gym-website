@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerFit Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>POWERFIT GYM</h1>
+</header>
+
+<section class="hero">
+<h2>Transform Your Body</h2>
+<p>Train Hard. Stay Strong.</p>
+</section>
+
+<section class="generator">
+
+<h2>Workout Plan Generator</h2>
+
+<input type="number" id="weight" placeholder="Enter Weight (kg)">
+<input type="number" id="height" placeholder="Enter Height (cm)">
+
+<button onclick="generatePlan()">Generate Plan</button>
+<button onclick="calculateBMI()">Check BMI</button>
+
+<p id="bmiResult"></p>
+
+</section>
+
+
+<section id="resultSection">
+
+<h2>Your Fitness Plan</h2>
+
+<div id="workoutResult"></div>
+<div id="dietResult"></div>
+<div id="daysResult"></div>
+
+</section>
+
+
+<section class="workout-grid">
+
+<div class="day">
+<h4>Contact</h4>
+<p>Email: <b>mystranxt@gmail.com</b></p>
+</div>
+
+<div class="day">
+<h4>Motivation</h4>
+<p>"Your body can stand almost anything — it's your mind you have to convince."</p>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
