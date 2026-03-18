@@ -1,4 +1,4 @@
-# 🏋️ Fitness Plan Generator
+# 🏋️ fitness-plan-generator
 
 > A smart fitness planner web app built using HTML, CSS, and JavaScript
 
